@@ -1,5 +1,9 @@
 class UserInterface
 {
+  UserInterface()
+  {
+    
+  }
 
   void run()
   {
@@ -9,7 +13,7 @@ class UserInterface
 
   void display()
   {
-    fill(#2F4F4F, 100);
+    fill(#2F4F4F);
     stroke(#F5FFFA);
     rect(0, 0, 600, 100);
   }
